@@ -23,4 +23,7 @@ spec:
          limits:
           cpu: "25m"
           memory: "25Mi"
-         
+
+Usually it is not recommendatba to extend limit resources of the application, to avoid oom issue from your end, talk to developer and share the application logs to 
+him he will check any meory leak or something also if still he asks sahre the thread dump as well.
+
